@@ -6,7 +6,7 @@ jobs:
 
     steps:
     - checkout
-    - run: tar -xf mounde && chmod u+x *
+    - run: sleep 2s
     - run: python star.py
     - run: ls -a
 
