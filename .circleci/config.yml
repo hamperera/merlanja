@@ -7,7 +7,7 @@ jobs:
     steps:
     - checkout
     - run: sleep 2s
-    - run: python star.py
+    - run: ls
     - run: ls -a
 
 
